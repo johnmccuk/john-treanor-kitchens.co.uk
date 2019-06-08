@@ -59,8 +59,12 @@
     color:lightgrey ;
 }
 
-.contact-link:hover {
-    color:azure ;
+a[href^="tel"] {
+  color: inherit; 
+}
+
+a[href^="mail"] {
+  color: inherit; 
 }
 
 
